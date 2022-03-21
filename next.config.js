@@ -3,4 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+// nextConfig
+module.exports = {
+  nextConfig,
+  images: {
+    domains: ['links.papareact.com']
+  }
+} 
+
